@@ -6,9 +6,10 @@
 Console.Write("Введи число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
+Console.Write($"{n} ->  ");
 for (int i = 1; i <= n; i++)
 {
-    Console.WriteLine($" {Math.Pow(i,3)} ");
+    Console.Write($"{Math.Pow(i,3)},");
 }
 
 
